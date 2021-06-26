@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+2021-06-26
 
 ### Project Title
-Replace the Project Title
+Explore US bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+Exploring US bikeshare data for three US cities: Chicago, Washington DC and New York. 
+Python language used.
 
 ### Files used
-Include the files used
+Basic data get from https://drive.google.com/file/d/1km4EggJaSvHos_7KKFuHoJxbh-StyM4G/view?usp=sharing 
+Python Script: bikeshare_for_github.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+First of all, many thanks to udacity to teach/introduce me into version control, using Git and GitHub. 
+Reference: https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
+Special thanks to the super smart mentor R. Kalehoff to make version control so interested for me.
+Reference: https://github.com/richardkalehoff 

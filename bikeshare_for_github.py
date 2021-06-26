@@ -293,9 +293,10 @@ def main():
         df = load_data(city, month, day)
         
         time_stats(df)
-        station_stats(df)
         trip_duration_stats(df)
-        user_stats(df)
+        station_stats(df)
+        
+        #user_stats(df)
         show_data_details(df)
 
         restart = input('\nWould you like to restart?\nY/N\n')

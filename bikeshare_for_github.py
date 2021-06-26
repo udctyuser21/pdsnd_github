@@ -39,12 +39,16 @@ month_input_alternative = { '1'          : 1,
                '4'          : 4,
                '5'          : 5,
                '6'          : 6,
+               '7'          : 7,
+               '8'          : 8,
                'january'    : 1,
                'february'   : 2,
                'march'      : 3,
                'april'      : 4,
                'may'        : 5,
-               'june'       : 6
+               'june'       : 6,
+               'july'       : 7,
+               'august'       : 8,
              }
 
 def get_filters():
@@ -75,7 +79,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         print('Select a month by number or name or type [all] for the whole content')
-        month = input('1 - January \n2 - February \n3 - March \n4 - April \n5 - May \n6 - June\nall \n').lower()
+        month = input('1 - January \n2 - February \n3 - March \n4 - April \n5 - May \n6 - June\n7 - July\n8 - August\nall \n').lower()
         if month == 'all':
             month = 'all'
             print()
@@ -289,9 +293,10 @@ def main():
         df = load_data(city, month, day)
         
         time_stats(df)
-        station_stats(df)
         trip_duration_stats(df)
-        user_stats(df)
+        station_stats(df)
+        
+        #user_stats(df)
         show_data_details(df)
 
         restart = input('\nWould you like to restart?\nY/N\n')

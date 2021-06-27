@@ -7,10 +7,11 @@ Explore US bikeshare data
 ### Description
 Exploring US bikeshare data for three US cities: Chicago, Washington DC and New York. 
 Python language used.
+next time I have to add more details about it. E.g. kpi etc. :-)
 
 ### Files used
 - Basic data get from https://drive.google.com/file/d/1km4EggJaSvHos_7KKFuHoJxbh-StyM4G/view?usp=sharing 
-- Python Script: bikeshare_for_github.py
+- Python Script: bikeshare.py
 
 ### Credits
 Special thanks to the super smart mentor R. Kalehoff to make version control so interested for me.
